@@ -29,8 +29,8 @@ This project demonstrates the creation of a scalable data pipeline using various
 This project is organized as follows:
 
 - **Datasets**: Stored in AWS S3.
-  ![Data Flow](C:\Users\Welcome\Downloads\proj_aws\snips\dataset_bucket.png)
-  
+  ![dataset_bucket](https://github.com/user-attachments/assets/0947a4d5-9822-4893-bd12-19f84062a7e3)
+
 - **Data Processing**: Performed using AWS Glue.
 - **Data Querying**: Handled through AWS Athena.
 - **Data Warehousing**: Managed using AWS Redshift.
