@@ -29,7 +29,8 @@ This project demonstrates the creation of a scalable data pipeline using various
 This project is organized as follows:
 
 - **Datasets**: Stored in AWS S3.
-  ![dataset_bucket](https://github.com/user-attachments/assets/0947a4d5-9822-4893-bd12-19f84062a7e3)
+  
+  ![s3_1](https://github.com/user-attachments/assets/5411a275-dc14-4f2d-b4ef-42f8b76b3e09)
 
 - **Data Processing**: Performed using AWS Glue.
 - **Data Querying**: Handled through AWS Athena.
@@ -51,10 +52,25 @@ This project is organized as follows:
 The architecture of this data pipeline includes:
 
 1. **Data Storage**: Raw data is stored in S3.
+    ![dataset_bucket](https://github.com/user-attachments/assets/0947a4d5-9822-4893-bd12-19f84062a7e3)
+    ![ds1](https://github.com/user-attachments/assets/2c3f3047-27e3-4ca2-9f6d-6f65346d033a)
+    ![ds2](https://github.com/user-attachments/assets/2dc9652c-835f-4430-bbe0-3bd4d0ff35bf)
+    ![ds3](https://github.com/user-attachments/assets/3512e336-b055-4ecd-91b7-8ddc82cb4f15)
+
 2. **Data Processing**: AWS Glue is used to define the schema and process the data.
-3. **Querying**: Data is queried using AWS Athena to verify correctness.
-4. **Data Warehousing**: Data is moved to Redshift for further processing and storage.
-5. **Visualization**: Power BI or Tableau connects to Redshift to create visualizations.
+    ![glue2](https://github.com/user-attachments/assets/7342bae3-0eb6-4a46-ab51-18f868ad0270)
+    ![glue1](https://github.com/user-attachments/assets/6552bcfa-4221-428b-a6ca-c9ebdc5176bc)
+
+4. **Querying**: Data is queried using AWS Athena to verify correctness.
+   ![athena1](https://github.com/user-attachments/assets/83b0b178-9522-4998-8529-d24dd00cac56)
+   ![athena2](https://github.com/user-attachments/assets/96217ffc-d132-4c03-ad83-8272e9dd2dd9)
+
+6. **Data Warehousing**: Data is moved to Redshift for further processing and storage.
+   ![redshift1](https://github.com/user-attachments/assets/878b5bd1-ce93-401c-9d52-4684fb2a8aef)
+   ![redshift2](https://github.com/user-attachments/assets/35ade64a-d975-4276-bea6-20eb7eb31aab)
+   ![red](https://github.com/user-attachments/assets/8e93673c-81f9-4f9e-b75a-70e83329dc10)
+
+8. **Visualization**: Power BI or Tableau connects to Redshift to create visualizations.
 
 ## Steps Followed
 
@@ -77,10 +93,15 @@ Developed Python scripts to perform ETL (Extract, Transform, Load) operations:
 ### 4. Save Result to S3
 
 After processing, the transformed data was saved as CSV files back to a specified S3 bucket for further steps.
+ ![out](https://github.com/user-attachments/assets/6a3c89dd-0bcd-45cd-979b-dc80b6305b82)
+ ![output_bucket](https://github.com/user-attachments/assets/806dc4fb-f088-4a06-93be-b88b23e7443c)
 
 ### 5. Glue Deployment
 
 AWS Glue was used to deploy crawlers and jobs for data processing, ensuring the data schema is continuously updated and accurate.
+ ![crawler](https://github.com/user-attachments/assets/def8fa93-3076-40a9-8b49-e85ea75843b6)
+ ![role1](https://github.com/user-attachments/assets/263c2987-f2c4-4596-8fd9-31484587ce8e)
+ ![crawler2](https://github.com/user-attachments/assets/ee0f1ec0-b043-480f-b485-95f2bd8d864b)
 
 ### 6. Build Tables on Redshift
 
@@ -98,7 +119,7 @@ Finally, the data in Redshift was connected to Power BI or Tableau for visualiza
 
 ### Prerequisites
 
-- An AWS account with access to S3, Glue, Athena, and Redshift.
+- An AWS account with access to S3, IAM, Glue, Athena, and Redshift.
 - Python environment with necessary libraries (`boto3`, `psycopg2`, `redshift_connector`).
 - Jupyter Notebook for running the ETL scripts.
 - Power BI or Tableau for visualization.
