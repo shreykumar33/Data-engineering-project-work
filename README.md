@@ -28,6 +28,9 @@ This project demonstrates the creation of a scalable data pipeline using various
 
 This project is organized as follows:
 
+![WhatsApp Image 2024-08-16 at 18 48 25](https://github.com/user-attachments/assets/13d3e8a7-8524-4d93-9da9-3d6a670c9f38)
+
+
 - **Datasets**: Stored in AWS S3.
   
   ![s3_1](https://github.com/user-attachments/assets/5411a275-dc14-4f2d-b4ef-42f8b76b3e09)
