@@ -28,14 +28,10 @@ This project demonstrates the creation of a scalable data pipeline using various
 
 This project is organized as follows:
 
+![architecture#1](https://github.com/user-attachments/assets/1eb688a3-dfdb-487b-9f8b-dea9db7a2eba)
 
 
 - **Datasets**: Stored in AWS S3.
-  
-  ![s3_1](https://github.com/user-attachments/assets/5411a275-dc14-4f2d-b4ef-42f8b76b3e09)
-
-
-
 - **Data Processing**: Performed using AWS Glue.
 - **Data Querying**: Handled through AWS Athena.
 - **Data Warehousing**: Managed using AWS Redshift.
@@ -59,6 +55,8 @@ The architecture of this data pipeline includes:
 
 
 1. **Data Storage**: Raw data is stored in S3.
+
+    ![s3_1](https://github.com/user-attachments/assets/5411a275-dc14-4f2d-b4ef-42f8b76b3e09)
    
     ![dataset_bucket](https://github.com/user-attachments/assets/0947a4d5-9822-4893-bd12-19f84062a7e3)
    
@@ -74,7 +72,7 @@ The architecture of this data pipeline includes:
 
 
 
-2. **Data Processing**: AWS Glue is used to define the schema and process the data.
+3. **Data Processing**: AWS Glue is used to define the schema and process the data.
    
     ![glue2](https://github.com/user-attachments/assets/7342bae3-0eb6-4a46-ab51-18f868ad0270)
 
@@ -83,7 +81,7 @@ The architecture of this data pipeline includes:
 
    
 
-3. **Querying**: Data is queried using AWS Athena to verify correctness.
+4. **Querying**: Data is queried using AWS Athena to verify correctness.
    
    ![athena1](https://github.com/user-attachments/assets/83b0b178-9522-4998-8529-d24dd00cac56)
 
