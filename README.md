@@ -55,7 +55,6 @@ This project is organized as follows:
 
 The architecture of this data pipeline includes:
 
-![WhatsApp Image 2024-08-16 at 18 48 25](https://github.com/user-attachments/assets/13d3e8a7-8524-4d93-9da9-3d6a670c9f38)
 
 
 
