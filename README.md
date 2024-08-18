@@ -28,7 +28,7 @@ This project demonstrates the creation of a scalable data pipeline using various
 
 This project is organized as follows:
 
-![architecture#1](https://github.com/user-attachments/assets/1eb688a3-dfdb-487b-9f8b-dea9db7a2eba)
+![architecture#1](https://github.com/user-attachments/assets/d642d9dd-953d-4df3-86bd-49be9953959e)
 
 
 - **Datasets**: Stored in AWS S3.
