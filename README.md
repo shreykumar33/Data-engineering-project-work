@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates the creation of a scalable data pipeline using various AWS services. The pipeline covers the entire process from data ingestion and processing to storage in a data warehouse, followed by visualization. The technologies used include AWS S3, Glue, Athena, Redshift, and Python scripting in Jupyter Notebooks. The final output can be visualized using Power BI or Tableau.
+This project demonstrates the creation of a scalable data pipeline using various AWS services. The pipeline covers the entire process from data ingestion and processing to storage in a data warehouse, followed by visualization. The technologies used include AWS S3, Glue, Athena, Redshift, and Python scripting in Jupyter Notebooks. The final output can be visualized using Power BI or Tableau. One can follow this readme file and learn their way around a cloud-based data engineering project as I've tried to capture all the basics here :) 
 
 ## Table of Contents
 
